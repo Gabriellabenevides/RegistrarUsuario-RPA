@@ -8,7 +8,7 @@ import BookAPI.books_client
 def main(name):
     Browser.close.close()
     driver = Browser.open.open()
-    #Registro.registro.registro(driver)
+    Registro.registro.registro(driver)
     BookAPI.books_client.obterLivros()
     BookAPI.books_client.obterLivroPorId('9781449325862')
 
